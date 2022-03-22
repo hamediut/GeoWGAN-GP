@@ -12,4 +12,5 @@ Give the path to one of these images upon running training code (train.py).
 * To run the code for training WGAN-GP type: train.py  -ip " path to the large segmented image in the Original_images folder".
 * Other paramter is '-project_name' which is Meta-igneous by default but you can define your own name. it will create a folder where your training images will be saved.
 * If you would like to use larger images for training, you can change
-
+* Default image size for reconstruction is 128 by 128 pixels. if you want to train WGAN-GP on larger images you should pass argumnt '-isize' it is set to 128 by default.
+Networks' architectures will automatically be updated to create images of this size. Note that isize should a multliple 16.

@@ -41,15 +41,18 @@ parser.add_argument( "-ip", "--InputPath", required =  True, type = str, help= t
 parser.add_argument( "-project_name", "--ProjectName", required =  False, default= 'MetaIgneous', type = str, help= textwrap.dedent(''' \
                     Project name.
                    ''') )
+parser.add_argument( "-isize", "--ImageSize", required =  False, default= 128, type = int, help= textwrap.dedent(''' \
+                    Training image size.
+                   ''') )
 args = parser.parse_args()
 
 # parameters
 input_path = args.InputPath
 project_name = args.ProjectName
+isize = args.ImageSize # training image size. this will be used to generate images for training and also fo Generator and discriminator's architecture
 n_epochs =  200
 display_step = 200
 s2_step = 200
-isize = 128 # training image size. this will be used to generate images for training and also fo Generator and discriminator's architecture
 batch_size = 128
 z_dim = 512 # dimension of noise vector
 lr = 0.0001 # learning  rate
