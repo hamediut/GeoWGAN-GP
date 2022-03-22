@@ -22,3 +22,12 @@ Networks' architectures will be utomatically updated to create images of this si
 * Two-point correlation and autoscaled correlations plots calculated from real and reconstructed images are also save in output folder.
 * Both mse and two-point correlation functions are calculated on 128 images (=batch size) and average values are considered.
 
+## Requirements
+Following libraries and versions have been used in this repository.
+* Python 3.8.12
+* PyTorch 1.10.12
+* Numpy 1.19.5
+* Numba 0.54.0
+* Pandas 1.3.5
+* Scikit-image 0.18.3
+* Tifffile 2021.11.2
