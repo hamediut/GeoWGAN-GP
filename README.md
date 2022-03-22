@@ -1,6 +1,8 @@
 # GeoWGAN-GP
 Code for training a WGAN-GP to reconstruct two-dimensional backscatter electron microscopy images of geological rock samples. More details can be found in **Quantifying complex microstructures of earth material: Reconstructing higher-order spatial correlations using deep generative adversarial networks**.
+
 Authors: Hamed Amiri, Ivan Vasconcelos,Yang Jiao, Pei-En Chen, Oliver Plümper
+
 Original data and data for reproducing figures in the publication can be found in Yoda repository of Utrecht University available on:
 % here the link to Yoda.
 
