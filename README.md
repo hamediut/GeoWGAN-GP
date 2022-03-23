@@ -14,7 +14,7 @@ Give the path to one of these images upon running training code (train.py).
 * To run the code for training WGAN-GP type: train.py  -ip " path to the large segmented image in the Original_images folder".
 * Other paramter is '-project_name' which is Meta-igneous by default but you can define your own name. it will create a folder where your training images will be saved.
 * Default image size for reconstruction is 128 by 128 pixels. if you want to train WGAN-GP on larger images you should pass argumnt '-isize' it is set to 128 by default.
-Networks' architectures will be utomatically updated to create images of this size. Note that isize should a multliple 16.
+Networks' architectures will be utomatically updated to create images of this size. Note that isize should be a multliple 16.
 
 ## Remarks
 * MSE between two point correlation of real and reconstructed images are used as a accuracy metric and also for saving the models. By default, when mse is less than 5e-7, model is save in a new folder called "checkpoints" in which there will be a folder to save the best model with smallest mse.
