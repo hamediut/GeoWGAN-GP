@@ -17,7 +17,7 @@ Give the path to one of these images upon running training code (train.py).
 Networks' architectures will be utomatically updated to create images of this size. Note that isize should be a multliple 16.
 
 ## Remarks
-* MSE between two point correlation of real and reconstructed images are used as a accuracy metric and also for saving the models. By default, when mse is less than 5e-7, model is save in a new folder called "checkpoints" in which there will be a folder to save the best model with smallest mse.
+* MSE between two point correlation of real and reconstructed images are used as a accuracy metric and also for saving the models. By default, when mse is less than 5e-7, model is saved in a new folder called "checkpoints" in which there will be a subfolder to save the best model with smallest mse.
 * Two-point correlation and autoscaled correlations plots calculated from real and reconstructed images are also save in output folder.
 * Both mse and two-point correlation functions are calculated on 128 images (=batch size) and average values are considered.
 
