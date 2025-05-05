@@ -1,7 +1,7 @@
 # GeoWGAN-GP
-Code for training a WGAN-GP to reconstruct two-dimensional backscatter electron microscopy images of geological rock samples. More details can be found in **Quantifying complex microstructures of earth material: Reconstructing higher-order spatial correlations using deep generative adversarial networks**.
+Code for training a WGAN-GP to reconstruct two-dimensional backscatter electron microscopy images of geological rock samples. This project is part of my PhD at Utrecht University, funded by European Reseach Councoul (ERC) starting grant 'nanoEARTH' (#852069). More details can be found in **Quantifying complex microstructures of earth material: Reconstructing higher-order spatial correlations using deep generative adversarial networks**. 
 
-Authors: [Hamed Amiri](https://www.researchgate.net/profile/Hamed-Amiri-10), [Ivan Vasconcelos](https://www.uu.nl/medewerkers/IPiresdeVasconcelos), [Yang Jiao](https://isearch.asu.edu/profile/1970397), [Pei-En Chen](https://www.researchgate.net/profile/Pei-En-Chen-2), [Oliver Plümper](https://www.uu.nl/staff/OPlumper)
+Authors: [Hamed Amiri](https://www.researchgate.net/profile/Hamed-Amiri-10), [Ivan Vasconcelos](https://www.uu.nl/medewerkers/IPiresdeVasconcelos), [Yang Jiao](https://isearch.asu.edu/profile/1970397), [Pei-En Chen](https://www.researchgate.net/profile/Pei-En-Chen-2), [Oliver PlÃ¼mper](https://www.uu.nl/staff/OPlumper)
 
 Original data and data for reproducing figures in the publication can be found in Yoda repository of Utrecht University available on:
 % here the link to Yoda.
